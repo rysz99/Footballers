@@ -1,0 +1,322 @@
+body
+{
+    color: #aaa;
+}
+
+#container
+{
+    width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 30px;
+    border: 2px solid green;
+    background-color: #353535;
+}
+
+h1,h2,h3
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+h1
+{
+    padding: 20px 12px;
+    letter-spacing: 2.5px;
+    text-shadow:
+        1px 1px 0 #662478,
+        -1px 1px 0 #662478,
+        -1px -1px 0 #662478,
+        1px -1px 0 #662478;
+    background-color: black;
+}
+
+#menu
+{
+    background-color: #662478;
+    height: 24px;
+    line-height: 34%;
+}
+
+ol,ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol
+{
+    display: inline-block;
+    text-align: center;
+}
+
+ol > li
+{
+    float: left;
+    width: 139.43px;
+    padding-top: 4px;
+    text-shadow:
+        1px 1px 0 black,
+        -1px 1px 0 black,
+        -1px -1px 0 black,
+        1px -1px 0 black;
+    transition: all .5s ease-in-out;
+}
+
+ol > li:hover
+{
+    background-color: #551367;
+    letter-spacing: 3px;
+}
+
+ol > li:hover ul
+{
+    display: block;
+}
+
+ol > li > a
+{
+    color: #dddd00;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+ul
+{
+    display: none;
+}
+
+ul > li
+{
+    background-color: #662478;
+    text-shadow: none;
+    border-top: 1px solid #330145;
+    margin-top: 4.5px;
+    padding: 6px 0;
+    letter-spacing: 0;
+}
+
+ul > li > a:hover
+{
+    background-color: #773589;
+    color: #eeee00;
+    letter-spacing: 0;
+}
+
+ul > li > a
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #cccc00;
+    transition: all .4s ease-in-out;
+}
+
+#menu a
+{
+    text-decoration: none;
+    display: block;
+}
+
+#main-content
+{
+    padding: 20px;
+    margin-top: 36px;
+    background-color: #222;
+}
+
+h2
+{
+    background-color: wheat;
+    color: black;
+    margin-top: 60px;
+    padding: 7px 0;
+    letter-spacing: 3px;
+    opacity: 0.6;
+}
+
+#england
+{
+    margin-top: 0;
+}
+
+h4
+{
+    background-color: darkgreen;
+    padding: 8px 0;
+    margin-top: 0;
+    color: yellow;
+    letter-spacing: 1px;
+}
+
+h3
+{
+    background-color: black;
+    padding: 12px 0;
+    text-align: center;
+    text-shadow:
+        1px 1px 0 red,
+        -1px 1px 0 red,
+        -1px -1px 0 red,
+        1px -1px 0 red;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+section
+{
+    background-color: midnightblue;
+}
+
+.side-nav > nav > a
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 54px;
+}
+
+.side-nav > nav > a:last-child
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0;
+}
+
+.side-nav > nav > a:hover
+{
+    font-weight: 700;
+}
+
+.side-bar
+{
+    width: 229px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+
+.side-bar > .side-nav
+{
+    line-height: 440%; 
+    min-height: 265px;
+    background-color: saddlebrown;
+    padding: 10.5px 0;
+}
+
+.image > a > img
+{
+    width: 229px;
+    display: block;
+    height: 251.6px;
+}
+
+.image.less > a > img
+{
+    height: 251.4px;
+}
+
+.side-bar > .image
+{
+    width: 229px;
+}
+
+.side-bar > .image:hover
+{
+    transform: rotate(360deg);
+}
+
+.side-bar > .image
+{
+    transition: transform 1s ease-in-out;
+}
+
+.side-nav > nav > a
+{
+    background-color: sandybrown;
+}
+
+.about
+{
+    float: left;
+    text-align: center;
+    width: 706px;
+}
+
+p
+{
+    text-align: justify;
+    padding: 20px;
+    line-height: 150%;
+    margin-top: 0;
+}
+
+header > p
+{
+    padding: 5px;
+    line-height: 200%;
+}
+
+#footer
+{
+    text-align: center;
+}
+
+#sociallinks
+{
+    margin: 48px 0;
+    background-color: #000;
+    padding: 5px;
+}
+
+.sociallink
+{
+    float: left;
+    margin: 0 10px;
+    width: 191px;
+    padding: 60px 15px;
+    position: relative;
+    top: 30px;
+    transition: all .7s ease-in-out;
+    border-radius: 8px;
+}
+
+.sociallink:hover
+{
+    cursor: pointer;
+}
+
+.yt:hover
+{
+    background-color: #d94348; 
+}
+
+.tw:hover
+{
+    background-color: #3095d3;
+}
+
+.gplus:hover
+{
+    background-color: #d95333; 
+}
+
+.fb:hover
+{
+    background-color: #4668b3;
+}
+
+footer
+{
+    background-color: #662478;
+    text-shadow:
+        1px 1px 0 #662478,
+        -1px 1px 0 #662478,
+        -1px -1px 0 #662478,
+        1px -1px 0 #662478;
+    background-color: black;
+}
